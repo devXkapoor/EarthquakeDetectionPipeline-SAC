@@ -1,0 +1,64 @@
+🚀 Starting Motif-Based Earthquake Detection Pipeline...
+
+
+▶️ Running: step1_preprocess
+⏰ Start: 2025-04-23 20:56:25
+✅ Completed: step1_preprocess
+⏱️ End: 2025-04-23 20:56:36
+🕓 Time Taken: 10.87 seconds
+🧭 Total Elapsed: 10.87 seconds
+
+
+▶️ Running: step2_matrix_profile
+⏰ Start: 2025-04-23 20:56:36
+✅ Completed: step2_matrix_profile
+⏱️ End: 2025-04-23 21:40:06
+🕓 Time Taken: 2609.60 seconds
+🧭 Total Elapsed: 2620.48 seconds
+
+
+▶️ Running: step3_filter_templates
+⏰ Start: 2025-04-23 21:40:06
+✅ Completed: step3_filter_templates
+⏱️ End: 2025-04-23 21:40:07
+🕓 Time Taken: 1.45 seconds
+🧭 Total Elapsed: 2621.93 seconds
+
+
+▶️ Running: step4_template_matching
+⏰ Start: 2025-04-23 21:40:07
+✅ Completed: step4_template_matching
+⏱️ End: 2025-04-23 21:44:30
+🕓 Time Taken: 263.43 seconds
+🧭 Total Elapsed: 2885.36 seconds
+
+
+▶️ Running: step5_filter_detections
+⏰ Start: 2025-04-23 21:44:30
+✅ Completed: step5_filter_detections
+⏱️ End: 2025-04-23 21:44:31
+🕓 Time Taken: 0.46 seconds
+🧭 Total Elapsed: 2885.82 seconds
+
+
+▶️ Running: step6_generate_outputs
+⏰ Start: 2025-04-23 21:44:31
+✅ Completed: step6_generate_outputs
+⏱️ End: 2025-04-23 21:45:03
+🕓 Time Taken: 31.70 seconds
+🧭 Total Elapsed: 2917.52 seconds
+
+
+✅ Motif-Based Pipeline Completed Successfully!
+
+📋 Execution Summary:
+ - step1_preprocess: 10.87s | Start: 20:56:25 → End: 20:56:36
+ - step2_matrix_profile: 2609.60s | Start: 20:56:36 → End: 21:40:06
+ - step3_filter_templates: 1.45s | Start: 21:40:06 → End: 21:40:07
+ - step4_template_matching: 263.43s | Start: 21:40:07 → End: 21:44:30
+ - step5_filter_detections: 0.46s | Start: 21:44:30 → End: 21:44:31
+ - step6_generate_outputs: 31.70s | Start: 21:44:31 → End: 21:45:03
+
+⏳ Total Pipeline Time: 2917.52 seconds
+📝 Logs saved to: results\003Hours-250Hz-1.0s-GPU\log_time.txt
+📂 Results stored in: 003Hours-250Hz-1.0s-GPU

@@ -1,0 +1,17 @@
+# Files greater than 100mb
+results/006Hours-250Hz-1.0s-GPU/matrix_profile.npy
+
+# Files b/w 50mb and 100mb - Important Files!
+!data/raw/rec_5_2024-09-23.sac
+!data/raw/SAC_Data.sac
+!results/001Hours-250Hz-1.0s-GPU/data/raw/SAC_Data.sac
+!results/001Hours-250Hz-10.0s-GPU/data/raw/SAC_Data.sac
+!results/001Hours-250Hz-5.0s-GPU/data/raw/SAC_Data.sac
+!results/001Hours-250Hz-50.0s-GPU/data/raw/SAC_Data.sac
+!results/002Hours-250Hz-1.0s-GPU/data/raw/SAC_Data.sac
+!results/002Hours-250Hz-50.0s-GPU/data/raw/SAC_Data.sac
+!results/003Hours-250Hz-1.0s-GPU/data/raw/SAC_Data.sac
+!results/003Hours-250Hz-1.0s-GPU/matrix_profile.npy
+!results/006Hours-250Hz-1.0s-GPU/data/raw/SAC_Data.sac
+!utils/matrix_profile.txt
+

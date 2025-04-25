@@ -1,0 +1,38 @@
+{
+  "general": {
+    "use_gpu": true,
+    "sampling_rate": 250
+  },
+  "step1_preprocess": {
+    "raw_input_path": "data/raw/SAC_Data.sac",
+    "output_path": "data/processed/processed_trace.sac",
+    "output_plot": "data/processed/processed_trace_plot.png",
+    "trim_start": 0,
+    "trim_duration": 3600,
+    "freqmin": 0.5,
+    "freqmax": 20.0
+  },
+  "step2_matrix_profile": {
+    "window_sec": 1.0,
+    "top_n_motifs": 5,
+    "force_recompute": false,
+    "plot_matrix_profile": false
+  },
+  "step3_filter_templates": {
+    "group_gap_threshold": 1
+  },
+  "step4_template_matching": {
+    "correlation_threshold": 0.9,
+    "max_matches_per_template": 100
+  },
+  "step5_filter_detections": {
+    "match_index_column": "match_index",
+    "correlation_column": "correlation",
+    "template_column": "template_id",
+    "cluster_gap_threshold": 1
+  },
+  "step6_generate_outputs": {
+    "event_window_sec": 5.0,
+    "plot_window_sec": 30.0
+  }
+}
